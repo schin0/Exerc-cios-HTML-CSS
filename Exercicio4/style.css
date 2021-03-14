@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+#titulo {
+    margin: 5vh 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+}
+
+#fonte {
+    margin: 2vh 0vw;
+    display: flex;
+    justify-content: center;
+}
