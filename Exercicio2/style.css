@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+
+a {
+    margin: 1.5vh 0vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-seri;
+}
+
+/* FIM Header */
+
+/* Título */
+
+#titulo {
+    font-family: 'Merriweather', serif;
+    margin: 5vh 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* FIM Título */
+
+/* Empresa */
+
+#divEmpresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#empresa {
+    width: 800px;
+    border-radius: 100px;
+}
+
+/* FIM Empresa */
+
+/* Serviços */
+
+#servicos {
+    margin: 7vh 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+li, h3, dd {
+    font-family: 'Roboto', sans-seri;
+}
+
+h3 {
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.4em;
+}
+
+#lista {
+    display: flex;
+    justify-content: center;
+    width: 55;
+}
+
+ol {
+    padding: 5vh 10%;
+    align-items: center;
+    background-color: orange;
+    -webkit-border-radius: 0px 35px 0px 35px;
+    border-radius: 0px 35px 0px 35px;
+    width: 50%;
+}
+
+li {
+    margin: 15px 0px;
+    color: black;
+    font-size: 1.2em;
+}
+
+dd {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* FIM Serviços */
+
+
+/* Fotos */
+
+#tituloFotos {
+    margin: 10vh 0vw 5vh 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+#fotos {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fotos2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos {
+    margin: 5vh 0vw;
+    width: 450px;
+    height: 300px;
+    -webkit-box-shadow: 5px 2px 50px 12px orange;
+    box-shadow: 5px 2px 50px 12px orange;
+}
+
+.fotos:hover {
+    -webkit-box-shadow: 5px 2px 50px 12px rgb(250, 89, 30);
+    box-shadow: 5px 2px 50px 12px rgb(250, 89, 30);
+}
+
+/* FIM Fotos */
