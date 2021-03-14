@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-top: 20vh;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
